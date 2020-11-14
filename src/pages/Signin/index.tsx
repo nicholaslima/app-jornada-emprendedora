@@ -1,9 +1,12 @@
 
 import React from 'react';
+import { Link } from 'react-router-dom';
+
 import { Container } from './style';
 import { FaFacebook } from 'react-icons/fa';
 import { FcGoogle } from 'react-icons/fc';
 import Logo from '../../assets/logo.png';
+
 
 const Signin:React.FC = () => {
     return(
@@ -33,7 +36,9 @@ const Signin:React.FC = () => {
 
                         <p className="link" id="novaSenha">Não consigo acessar minha conta</p> 
 
-                        <button className="cadastrar">Acessar agora</button>
+                        <Link to='/bemvindo'>
+                            <button className="cadastrar">Acessar agora</button>
+                        </Link>
                     </form>
                 </div>  
 
