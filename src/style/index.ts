@@ -9,6 +9,10 @@ export default  createGlobalStyle`
         outline: 0px;
         box-sizing: border-box;
     }
+
+    html{
+        font-size:62.5%;
+    }
     
     body{ 
         background-color: #F1F7FF;

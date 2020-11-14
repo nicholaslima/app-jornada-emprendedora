@@ -1,82 +1,113 @@
 import styled from 'styled-components';
-
+import Bg from '../../assets/bg.png';
 
 export const Container = styled.div`
     width: 100vw;
     height: 100vh;
     display: flex;
     flex-direction: row;
+
     
     aside{
        width: 40%;
        display: flex;
        flex-direction: column;
-       justify-content: center;
+       justify-content: space-between;
        align-items: center;
        padding: 50px;
 
        h5{
             font-family: Roboto;
             font-weight: 300;
-            font-size: 20px;
+            font-size: 2.0rem;
             color: #444D51;
-            margin-bottom: 33px;
-            margin-top: 83px;
        }
 
        .social{
            display: flex;
            flex-direction: row;
-           margin-bottom: 30px;
+
+       }
+
+       .subTitulo{
+            font-weight: bold;
+            font-size: 12px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            text-align: center;
        }
 
        form{
-           margin-top: 30px;
+
            display: flex;
            flex-direction: column;
            align-items: center;
+
+           input{
+               border-width: 0px 0px 1px 0px;
+               border-color: #000000;
+               background-color:#F1F7FF;
+               padding: 6px;
+               width: 100%;
+               margin-bottom: 16px;
+
+               &&::placeholder{
+                    font-size: 18px;
+                    line-height: 22px;
+                    color: #172144;
+               }
+           }
        }
 
        #novaSenha{
-            margin-top: 23px;
+
             margin-bottom: 40px;
             text-align: center;
        }
 
        #register{
-            margin-top: 53px;
-            margin-bottom: 50px;
+
        }
     }
 
     main{ 
+        position: relative;
         width: 60%;
-        background: linear-gradient(180deg, #13FFE3 -22.52%, rgba(73, 40, 205, 0.51) 100%);
-        mix-blend-mode: multiply;
+        background-image: url(${ Bg });
+        background-repeat: no-repeat;
+        background-size: cover;
+       
+        .fundo{
+            border: 1px solid black;
+            margin-top: 0px;
+            width: 100%;
+            height: 100vh;
+            background: linear-gradient(180deg, #13FFE3 -22.52%, rgba(73, 40, 205, 0.51) 100%);
+            mix-blend-mode: multiply;
+            
+        }
+        
     }
 
 
 
     .titulo-chamada{
-
-        width: 349px;
-        height: 320px;
-
+        width: 250px;
         font-family: Quicksand;
-        font-size: 44px;
-        line-height: 70px;
-        margin-top: 270px;
-        margin-left: 50px;
-        display: flex;
-        align-items: flex-end;
+        font-size: 4.0rem;
+        line-height: 60px;
+        
+        position: absolute;
+        bottom: 0px;
+        left: 70px;
         letter-spacing: 0.21875px;
-
-        color: #FFFFFF;
+        color: #FFF;
+        margin-bottom: 35px;
     }
 
     .link{
         font-family: Quicksand;
-        font-size: 15px;
+        font-size: 1.5rem;
         line-height: 17px;
         display: flex;
         text-align: center;
@@ -95,7 +126,7 @@ export const Container = styled.div`
         border-radius: 12px;
 
         font-family: Quicksand;
-        font-size: 18px;
+        font-size: 1.8rem;
         line-height: 22px;
         border-width: 0px;
 
@@ -113,7 +144,7 @@ export const Container = styled.div`
         font-family: Roboto;
         font-style: normal;
         font-weight: 500;
-        font-size: 14px;
+        font-size: 1.4rem;
         line-height: 16px;
         padding: 9px;
         color: rgba(0, 0, 0, 0.54);
@@ -129,7 +160,7 @@ export const Container = styled.div`
         border-radius: 20px;
         font-family: Roboto;
         font-weight: 500;
-        font-size: 14px;
+        font-size: 1.4rem;
         line-height: 16px;
         padding: 9px;
 
