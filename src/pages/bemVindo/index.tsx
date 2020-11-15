@@ -10,13 +10,11 @@ import Arvores from '../../assets/Group 8.png';
 import Hand from '../../assets/hand.png';
 
 import { Container } from './style';
+import { Link } from 'react-router-dom';
 
 const BemVindo:React.FC = () => {
     return(
         <Container>
-            <header>
-
-            </header>
             <body>
                 <aside>
                     <img src={ Logo } alt="logotipo do site"/>
@@ -27,10 +25,10 @@ const BemVindo:React.FC = () => {
                         <p className="titulo"><img src={ Hand } alt="icone mão"/> Bem vindo!</p>
                         <p className="texto">Estamos muito felizes que você decidiu contar com a gente nessa trilha que é empreender.</p>
                         <p className="texto">Nos próximos passos, queremos conhecer um pouco mais sobre você para entender como podemos deixa-lô ainda mais preparado na nossa jornada.</p> 
-                        <div className="proximo">
+                        <Link className="proximo" to="/seus_conhecimentos">
                             <p>vamos lá</p> 
                             <FiArrowRight color="#4928CD" size="15"></FiArrowRight>   
-                        </div> 
+                        </Link> 
                     </div>
                 </main>
             </body>

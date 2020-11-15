@@ -11,19 +11,21 @@ export const Container = styled.div`
     body{ 
         display: flex;
         flex-direction: row;
+        
         width: 100%;
         height: 100vh;
         aside{
-            width: 60%;
+            width: 55%;
             display: flex;
             flex-direction: column;
             align-items: center;
+            justify-content: space-around;
+            height: 660px;
         }
 
         main{
-            width: 40%;
+            width: 45%;
             background-color: #fff;
-            border-radius: 30px 0px 0px 0px;
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -61,9 +63,25 @@ export const Container = styled.div`
         font-weight: bold;
         font-size: 16px;
         line-height: 20px;
-        letter-spacing: 0.21875px;
         margin-top: 26px;
         color: #4928CD;
+        margin: 6px 0px;
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-left: 0px;
+    }
+
+    .voltar{
+        font-family: Quicksand;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: 0.21875px;
+        margin-top: 26px;
+        color: #697B8C;
         margin: 6px 0px;
 
         display: flex;
