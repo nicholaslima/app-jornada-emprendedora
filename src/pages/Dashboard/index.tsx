@@ -25,16 +25,18 @@ const Dashboard:React.FC = () => {
                             <img src={ Estudo } alt=""/>
                             <div className="titulo">Comece uma nova trilha</div>
                             <p className="descricao">Inicie a trilha do empreendedorismo e dê o primeiro passo para tirar a sua ideia do papel</p>
-                            <Link to="/mentorias">
-                                <button>Conheça as trilhas de conteúdo</button>
-                            </Link>
+                            
+                            <button>Conheça as trilhas de conteúdo</button>
+                 
                         </div>
 
                         <div className="card">
                             <img src={ Mentoria } alt=""/>
                             <div className="titulo">Converse com um mentor</div>
                             <p className="descricao">Converse com nossos mentores e aprimore suas ideias para desenvolver o seu negócio.</p>
-                            <button>Conheça nossos mentores</button>
+                            <Link to="/mentorias">
+                                <button>Conheça nossos mentores</button>
+                            </Link>
                         </div>
 
                     </div>

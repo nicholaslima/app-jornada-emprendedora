@@ -1,5 +1,6 @@
 
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { Container } from './style';
 import { FiSearch } from 'react-icons/fi';
 
@@ -10,7 +11,7 @@ const Header:React.FC = () => {
     return(
         <Container>
             <header>
-                <img src={ Logo } alt="logo"/>
+                <Link to="/dashboard"><img src={ Logo } alt="logo"/></Link>
                 <div className="pesquisa">
                     <FiSearch size="20" color="#4928CD" style={{ marginRight: '10px'}}></FiSearch>
                     <input type="text" placeholder="Pesquise por um curso ou mentoria"/>

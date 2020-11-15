@@ -33,8 +33,19 @@ export const Container = styled.div`
                 flex-direction: row;
                 align-items: center;
                 transition: 0.5s;
-                p{
+                a{
                     margin-left: 12px;
+                    font-family: Quicksand;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 16px;
+                    line-height: 20px;
+
+                    /* identical to box height */
+                    letter-spacing: 0.21875px;
+
+                    /* Dark Blue */
+                    color: #172144;
                 }
 
 

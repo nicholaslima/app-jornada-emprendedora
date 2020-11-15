@@ -107,8 +107,8 @@ export const Container = styled.div`
 
             .grid-list{
                 display: grid;
-                grid-column: auto auto auto;
-                grid-gap: 10px;
+                grid-template-columns: auto auto auto;
+                grid-column-gap: 10px;
                 .card{
                     background: #A3D7FE;
                     border-radius: 16px;
@@ -117,6 +117,45 @@ export const Container = styled.div`
                         display: flex;
                         flex-direction:row;
                         justify-content: space-around;
+                        .foto{
+                            background-color: #FFFFFF;
+                            border-radius: 16px;
+                            margin-right: 12px;
+                            width: 100px;
+                            height: 100px;
+                        }
+
+                        .detalhes{
+                            display: flex;
+                            flex-direction: column;
+                            width: 166px;
+                        }
+                    }
+
+                    .btns{
+                        display: flex;
+                        flex-direction:row;
+                        justify-content: space-around;
+                        margin-top: 24px;
+
+                        .estrelas,.agendar{
+                            display: flex;
+                            flex-direction:row;
+                            p{
+                                margin-left: 7px;
+                                font-family: Quicksand;
+                                font-style: normal;
+                                font-weight: normal;
+                                font-size: 16px;
+                                line-height: 20px;
+
+                                /* identical to box height */
+                                letter-spacing: 0.21875px;
+
+                                /* Purple */
+                                color: #4928CD;
+                            }
+                        }
                     }
                 }
             }
@@ -144,6 +183,24 @@ export const Container = styled.div`
             font-size: 14px;
             line-height: 17px;
             letter-spacing: 0.21875px;
+
+            /* Dark Blue */
+            color: #172144;
+        }
+
+        .buscar{
+            font-family: Quicksand;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 20px;
+
+            /* identical to box height */
+            letter-spacing: 0.21875px;
+            text-decoration-line: underline;
+            margin-top: 18px;
+            text-align: center;
+            cursor: pointer;
 
             /* Dark Blue */
             color: #172144;

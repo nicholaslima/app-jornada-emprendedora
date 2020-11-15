@@ -3,6 +3,7 @@
 
 import React from 'react';
 import { Container } from './style';
+import { Link } from 'react-router-dom';
 import { GrSystem } from 'react-icons/gr';
 
 import Trilhas from '../../assets/trilhas.png';
@@ -19,23 +20,23 @@ const Dashboard:React.FC = () => {
                     <div>
                     <div className="item"> 
                         <GrSystem color="#172144" size="20"></GrSystem>
-                        <p>Visão Geral</p>
+                        <Link to="/dashboard">Visão Geral</Link>
                     </div>
                     <div className="item"> 
                         <img src={ Users } alt=""/>
-                        <p>Mentorias</p>
+                        <Link to="/mentorias">Mentorias</Link>
                     </div>
                     <div className="item">
                         <img src={ Trilhas } alt=""/>
-                        <p>Minhas Trilhas</p>
+                        <Link to="/minhas-trilhas">Minhas Trilhas</Link>
                     </div>
                     <div className="item">
                         <img src={ Hanking } alt=""/>
-                        <p>Ranking</p>
+                        <Link to="/hanking">Ranking</Link>
                     </div>
                     <div className="item">
                         <img src={ Config } alt=""/>
-                        <p>Configurações</p>
+                        <Link to="/conta">Configurações</Link>
                     </div>
                     </div>
                 </nav>
