@@ -26,7 +26,9 @@ const Dashboard:React.FC = () => {
                             <div className="titulo">Comece uma nova trilha</div>
                             <p className="descricao">Inicie a trilha do empreendedorismo e dê o primeiro passo para tirar a sua ideia do papel</p>
                             
-                            <button>Conheça as trilhas de conteúdo</button>
+                            <Link to="/minhas-trilhas">
+                                <button>Conheça as trilhas de conteúdo</button>
+                            </Link>
                  
                         </div>
 

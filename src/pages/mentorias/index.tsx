@@ -8,8 +8,6 @@ import { BsFillStarFill,BsCalendar } from 'react-icons/bs';
 
 import Header from '../../components/header';
 import Aside  from '../../components/aside';
-import Estudo from '../../assets/estudo.png';
-import Mentoria from '../../assets/mentoria.png';
 
 const Dashboard:React.FC = () => {
     return(

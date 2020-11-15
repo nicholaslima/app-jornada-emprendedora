@@ -3,7 +3,7 @@
 
 
 import styled from 'styled-components';
-
+import Trilha from '../../assets/trilha-1.png';
 
 export const Container = styled.div`
 
@@ -85,13 +85,18 @@ export const Container = styled.div`
                 justify-content: space-between;
                 align-items: center;
                 padding-bottom: 30px;
+                margin-top: 20px;
                 border-bottom: 1px solid  #B0BEC5;
 
                 .foto{
                     width: 161px;
-                    weight: 145px;
+                    height: 145px;
                     border-radius: 19px;
-                    background-color: #B0BEC5;
+                    background-image: url( ${ Trilha } );
+                    background-repeat: no-repeat;
+                    background-size: contain;
+                    margin-right: 18px;
+                    
                 }
 
                 .descricao{
@@ -126,8 +131,8 @@ export const Container = styled.div`
                 }
 
                 .detalhes{
-                    width: 166px;
-                    margin-left: 30px;
+                    
+                    margin-left: 13px;
                     .titulo-detalhe{
                         font-family: Quicksand;
                         font-style: normal;
@@ -179,8 +184,7 @@ export const Container = styled.div`
 
                 .acessorios{
                    
-                    display: flex;
-                    flex-direction: column;
+             
 
                     .pontuacao{
                         font-family: Quicksand;
@@ -204,33 +208,24 @@ export const Container = styled.div`
                     }
 
                     .topicos{
-                        display: flex;
-                        flex-direction: column;
+                        
 
                         .lista-topicos{
                             display: grid;
                             grid-column-gap: 5px;
                             grid-template-columns: auto auto;
                             margin-top: 13px;
+                           
                         }   
                     }
                 }
+
+
             }
 
-
         
-            
-        }
 
-        .titulo-topico{
-            font-family: Quicksand;
-            font-style: normal;
-            font-weight: bold;
-            font-size: 14px;
-            line-height: 17px;
-            letter-spacing: 0.21875px;
-            color: #172144;
-        }
+    
 
         .topico-item{
             font-family: Quicksand;
@@ -247,7 +242,7 @@ export const Container = styled.div`
 
             background: rgba(73, 40, 205, 0.04);
 
-/* Dark Blue */
+
             border: 1px solid #172144;
             box-sizing: border-box;
             border-radius: 8px;

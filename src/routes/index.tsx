@@ -10,7 +10,7 @@ import Pronto from '../pages/pronto';
 import Dashboard from '../pages/Dashboard';
 import Mentorias from '../pages/mentorias';
 import Trilhas from '../pages/trilhas';
-
+import Trilha from '../pages/trilha';
 
 const Routes:React.FC = () => {
     return(
@@ -23,6 +23,7 @@ const Routes:React.FC = () => {
             <Route path='/dashboard'  component={ Dashboard }/>
             <Route path='/mentorias'  component={ Mentorias }/>
             <Route path='/minhas-trilhas'  component={ Trilhas }/>
+            <Route path='/trilha'  component={ Trilha }/>
         </Switch>  
     )
 }
