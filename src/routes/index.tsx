@@ -8,7 +8,7 @@ import Conhecimentos from '../pages/bemVindo/inserirConhecimento';
 import Interesses from '../pages/interesses';
 import Pronto from '../pages/pronto';
 import Dashboard from '../pages/Dashboard';
-
+import Mentorias from '../pages/mentorias';
 
 const Routes:React.FC = () => {
     return(
@@ -19,6 +19,7 @@ const Routes:React.FC = () => {
             <Route path='/interesses'  component={ Interesses }/>
             <Route path='/pronto'  component={ Pronto }/>
             <Route path='/dashboard'  component={ Dashboard }/>
+            <Route path='/mentorias'  component={ Mentorias }/>
         </Switch>  
     )
 }

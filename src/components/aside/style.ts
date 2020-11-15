@@ -32,9 +32,12 @@ export const Container = styled.div`
                 display: flex;
                 flex-direction: row;
                 align-items: center;
+                transition: 0.5s;
                 p{
                     margin-left: 12px;
                 }
+
+
             }
         }
     }

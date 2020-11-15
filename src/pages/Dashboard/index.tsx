@@ -2,6 +2,8 @@
 
 import React from 'react';
 import { Container } from './style';
+import { Link } from 'react-router-dom';
+
 import Header from '../../components/header';
 import Aside  from '../../components/aside';
 import Estudo from '../../assets/estudo.png';
@@ -23,7 +25,9 @@ const Dashboard:React.FC = () => {
                             <img src={ Estudo } alt=""/>
                             <div className="titulo">Comece uma nova trilha</div>
                             <p className="descricao">Inicie a trilha do empreendedorismo e dê o primeiro passo para tirar a sua ideia do papel</p>
-                            <button>Conheça as trilhas de conteúdo</button>
+                            <Link to="/mentorias">
+                                <button>Conheça as trilhas de conteúdo</button>
+                            </Link>
                         </div>
 
                         <div className="card">
