@@ -11,6 +11,7 @@ import Dashboard from '../pages/Dashboard';
 import Mentorias from '../pages/mentorias';
 import Trilhas from '../pages/trilhas';
 import Trilha from '../pages/trilha';
+import Video from '../pages/video';
 
 const Routes:React.FC = () => {
     return(
@@ -24,6 +25,7 @@ const Routes:React.FC = () => {
             <Route path='/mentorias'  component={ Mentorias }/>
             <Route path='/minhas-trilhas'  component={ Trilhas }/>
             <Route path='/trilha'  component={ Trilha }/>
+            <Route path='/video'  component={ Video }/>
         </Switch>  
     )
 }

@@ -9,6 +9,7 @@ import { AiFillPlayCircle } from 'react-icons/ai';
 
 import Header from '../../components/header';
 import Aside  from '../../components/aside';
+import { Link } from 'react-router-dom';
 
 const Trilha:React.FC = () => {
     return(
@@ -67,29 +68,29 @@ const Trilha:React.FC = () => {
                                 </div>
 
                                 <div className="lista-aulas">
-                                    <div className="item-aula">
+                                    <Link to="/video" className="item-aula">
                                         <AiFillPlayCircle color="#28AFCD" size="20"></AiFillPlayCircle>
                                         <div className="detalhes-aula">
                                             <div className="titulo-aula">Ideação do Projeto</div>
                                             <div className="tempo-aula">12:17</div>
                                         </div>
-                                    </div>
+                                    </Link>
 
-                                    <div className="item-aula">
+                                    <Link to="/video" className="item-aula">
                                         <AiFillPlayCircle color="#28AFCD" size="20"></AiFillPlayCircle>
                                         <div className="detalhes-aula">
                                             <div className="titulo-aula">Ideação do Projeto</div>
                                             <div className="tempo-aula">12:17</div>
                                         </div>
-                                    </div>
+                                    </Link>
 
-                                    <div className="item-aula">
+                                    <Link to="/video" className="item-aula">
                                         <AiFillPlayCircle color="#28AFCD" size="20"></AiFillPlayCircle>
                                         <div className="detalhes-aula">
                                             <div className="titulo-aula">Ideação do Projeto</div>
                                             <div className="tempo-aula">12:17</div>
                                         </div>
-                                    </div>
+                                    </Link>
                                     
                                 </div>
 

@@ -110,7 +110,7 @@ export const Container = styled.div`
                 grid-template-columns: auto auto auto;
                 grid-column-gap: 10px;
                 .card{
-                    background: #A3D7FE;
+                    background: #F1F7FF;
                     border-radius: 16px;
                     padding: 40px;
                     .mentor-detalhes{
