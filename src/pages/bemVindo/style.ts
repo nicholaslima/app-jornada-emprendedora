@@ -34,7 +34,7 @@ export const Container = styled.div`
         }
     }
 
-
+   
 
     .texto{
         width: 325px;

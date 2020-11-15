@@ -29,4 +29,11 @@ export default  createGlobalStyle`
     a{ 
         text-decoration: none;
     }
+
+
+
+
+
+   
+
 `;

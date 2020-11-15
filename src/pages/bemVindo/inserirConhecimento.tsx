@@ -87,7 +87,7 @@ const inserirConhecimentos:React.FC = () => {
                             <div className="items"></div>
                         </div>
 
-                        <Link className="proximo"to="/">
+                        <Link className="proximo"to="/interesses">
                             Próximo  
                             <FiArrowRight color="#4928CD"></FiArrowRight>
                         </Link>
