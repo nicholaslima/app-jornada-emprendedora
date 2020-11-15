@@ -32,7 +32,7 @@ const Dashboard:React.FC = () => {
                     </div>
                     <div className="item">
                         <img src={ Hanking } alt=""/>
-                        <Link to="/hanking">Ranking</Link>
+                        <Link to="/ranking">Ranking</Link>
                     </div>
                     <div className="item">
                         <img src={ Config } alt=""/>
