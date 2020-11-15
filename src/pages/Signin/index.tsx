@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 import { Container } from './style';
 import { FaFacebook } from 'react-icons/fa';
 import { FcGoogle } from 'react-icons/fc';
-import Logo from '../../assets/logo.png';
+import Logo from '../../assets/logo-default.png';
 
 
 const Signin:React.FC = () => {

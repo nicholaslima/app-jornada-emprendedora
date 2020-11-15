@@ -5,7 +5,7 @@ import React from 'react';
 
 import { FiArrowRight  } from 'react-icons/fi';
 
-import Logo from '../../assets/logo.png';
+import Logo from '../../assets/logo-default.png';
 import Arvores from '../../assets/Group 8.png';
 import Hand from '../../assets/hand.png';
 

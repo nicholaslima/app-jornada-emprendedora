@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 import { FiArrowLeft,FiArrowRight} from 'react-icons/fi';
 import { Container,Footer } from './style';
-import Logo from '../../assets/logo.png';
+import Logo from '../../assets/logo-default.png';
 
 const Interesses: React.FC = () => {
     return(
@@ -44,7 +44,7 @@ const Interesses: React.FC = () => {
                             <div className="items"></div>
                         </div>
 
-                        <Link className="proximo" to="/interesses">
+                        <Link className="proximo" to="/pronto">
                             Próximo  
                             <FiArrowRight color="#4928CD"></FiArrowRight>
                         </Link>

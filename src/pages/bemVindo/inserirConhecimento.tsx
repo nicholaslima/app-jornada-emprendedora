@@ -3,7 +3,7 @@ import React from 'react';
 
 import { FiArrowRight,FiArrowLeft } from 'react-icons/fi';
 import { Link } from 'react-router-dom';
-import Logo from '../../assets/logo.png';
+import Logo from '../../assets/logo-default.png';
 
 import { Container } from './style';
 import { Footer,Lista,Titulo } from './inserirConhecimentoStyles';
