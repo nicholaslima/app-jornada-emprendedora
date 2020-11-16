@@ -30,9 +30,9 @@ backend: nodejs,express
 # Grupo
 
 esse trabalho foi projeado e contruido por:
-https://www.linkedin.com/in/elizete-almeida-ba6918197 - marketing e ideação
-https://www.linkedin.com/in/guilherme-ranieri/ - designer
-https://www.linkedin.com/in/nicholas-lima-a360311bb/ - dev front end
+## https://www.linkedin.com/in/elizete-almeida-ba6918197 - marketing e ideação
+## https://www.linkedin.com/in/guilherme-ranieri/ - designer
+## https://www.linkedin.com/in/nicholas-lima-a360311bb/ - dev front end
 
 
 
