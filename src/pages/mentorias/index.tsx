@@ -5,6 +5,9 @@ import { Container } from './style';
 
 import { FiSearch,FiChevronDown  } from 'react-icons/fi';
 import { BsFillStarFill,BsCalendar } from 'react-icons/bs';
+import Mentor1 from '../../assets/mentor-1.png';
+import Mentor3 from '../../assets/mentor-3.png';
+import Mentor6 from '../../assets/mentor-6.png';
 
 import Header from '../../components/header';
 import Aside  from '../../components/aside';
@@ -31,9 +34,9 @@ const Dashboard:React.FC = () => {
                        <div className="grid-list">
                             <div className="card">
                                 <div className="mentor-detalhes">
-                                    <div className="foto"></div>
+                                    <img src={ Mentor1 } alt="mentor foto" className="foto"/>
                                     <div className="detalhes">
-                                        <div className="nome-mentor">Bruno Leonardo</div>
+                                        <div className="nome-mentor">Matheus Henrique</div>
                                         <div className="descricao-mentor">Especilista em SEM, SEO Marketing de Conteúdo Marketing Estratégico</div>
                                     </div>
                                 </div>
@@ -51,10 +54,10 @@ const Dashboard:React.FC = () => {
                             
                             <div className="card">
                                 <div className="mentor-detalhes">
-                                    <div className="foto"></div>
+                                    <img src={ Mentor6 } alt="mentor foto" className="foto"/>
                                     <div className="detalhes">
-                                        <div className="nome-mentor">Bruno Leonardo</div>
-                                        <div className="descricao-mentor">Especilista em SEM, SEO Marketing de Conteúdo Marketing Estratégico</div>
+                                        <div className="nome-mentor">joão carlos</div>
+                                        <div className="descricao-mentor">Especilista administração de empresa e negócios</div>
                                     </div>
                                 </div>
                                 <div className="btns">
@@ -71,10 +74,10 @@ const Dashboard:React.FC = () => {
 
                             <div className="card">
                                 <div className="mentor-detalhes">
-                                    <div className="foto"></div>
+                                    <img src={ Mentor3 } alt="mentor foto" className="foto"/>
                                     <div className="detalhes">
                                         <div className="nome-mentor">Bruno Leonardo</div>
-                                        <div className="descricao-mentor">Especilista em SEM, SEO Marketing de Conteúdo Marketing Estratégico</div>
+                                        <div className="descricao-mentor">Especilista em startups e investimentos</div>
                                     </div>
                                 </div>
                                 <div className="btns">

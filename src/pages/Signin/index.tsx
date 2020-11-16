@@ -1,5 +1,5 @@
 
-import React from 'react';
+import React,{useState} from 'react';
 import { Link } from 'react-router-dom';
 
 import { Container } from './style';
@@ -7,8 +7,20 @@ import { FaFacebook } from 'react-icons/fa';
 import { FcGoogle } from 'react-icons/fc';
 import Logo from '../../assets/logo-default.png';
 
-
 const Signin:React.FC = () => {
+    const [ email,setEmail ] = useState('');
+    const [ senha,setSenha ] = useState('');
+
+   /* const HandleSubmit = useCallback(async () => {
+        api.post('/sessions',{
+            email:'teste@teste.com.br',
+            password:'teste123',
+        }).then(response => 
+            console.log(response.data)
+        );
+
+    },[]);*/
+
     return(
         <Container>
             <aside>
@@ -30,16 +42,17 @@ const Signin:React.FC = () => {
 
                     <p className="subTitulo">ou</p>
 
-                    <form action="">
-                        <input type="text" placeholder="E-mail"/>
-                        <input type="text" placeholder="Senha"/>
+                    <div className="form">
+                        <input type="text" placeholder="E-mail" value={ email } onChange={ (e) => setEmail(e.target.value)  } />
+                        <input type="password" placeholder="Senha" value={ senha } onChange={ (e) => setSenha(e.target.value)  } />
 
                         <p className="link" id="novaSenha">Não consigo acessar minha conta</p> 
 
-                        <Link to='/bemvindo'>
+                        <Link to="/bemvindo">
                             <button className="cadastrar">Acessar agora</button>
                         </Link>
-                    </form>
+   
+                    </div>
                 </div>  
 
                 <p id="register"> 

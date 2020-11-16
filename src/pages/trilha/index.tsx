@@ -26,7 +26,7 @@ const Trilha:React.FC = () => {
                                     Empreendendo de A à Z
                                 </p>
 
-                                <p className="descricao-trilha">Mussum Ipsum, cacilds vidis litro abertis. A ordem dos tratores não altera o pão duris. Interagi no mé, cursus quis, vehicula ac nisi.on tellus tristique interdum.</p>
+                                <p className="descricao-trilha">Desenvolva conhecimentos sobre inovação, empreendedorismo e como estruturar um plano de negócios.</p>
                                 <div className="detalhes">
                                     <div className="preco">Trilha Gratuita</div>
                                     <div className="reconpensas">2500 Diamantes de Recompensa</div>
@@ -79,16 +79,16 @@ const Trilha:React.FC = () => {
                                     <Link to="/video" className="item-aula">
                                         <AiFillPlayCircle color="#28AFCD" size="20"></AiFillPlayCircle>
                                         <div className="detalhes-aula">
-                                            <div className="titulo-aula">Ideação do Projeto</div>
-                                            <div className="tempo-aula">12:17</div>
+                                            <div className="titulo-aula">Planejamento e Pesquisa</div>
+                                            <div className="tempo-aula">18:17</div>
                                         </div>
                                     </Link>
 
                                     <Link to="/video" className="item-aula">
                                         <AiFillPlayCircle color="#28AFCD" size="20"></AiFillPlayCircle>
                                         <div className="detalhes-aula">
-                                            <div className="titulo-aula">Ideação do Projeto</div>
-                                            <div className="tempo-aula">12:17</div>
+                                            <div className="titulo-aula">Montando um MVP</div>
+                                            <div className="tempo-aula">25:19</div>
                                         </div>
                                     </Link>
                                     
@@ -98,40 +98,40 @@ const Trilha:React.FC = () => {
                                  <div className="checkpoint">
 
                                 <div className="checkpoint-Titulo">
-                                    Você também pode | Checkpoint 1
+                                    Aprimorando o seu conhecimento | Checkpoint 2
                                 </div>
 
                                 <div className="lista-aulas">
                                     <div className="item-aula">
                                         <AiFillPlayCircle color="#28AFCD" size="20"></AiFillPlayCircle>
                                         <div className="detalhes-aula">
-                                            <div className="titulo-aula">Ideação do Projeto</div>
-                                            <div className="tempo-aula">12:17</div>
+                                            <div className="titulo-aula">Validando uma ideia </div>
+                                            <div className="tempo-aula">28:17</div>
                                         </div>
                                     </div>
 
                                     <div className="item-aula">
                                         <AiFillPlayCircle color="#28AFCD" size="20"></AiFillPlayCircle>
                                         <div className="detalhes-aula">
-                                            <div className="titulo-aula">Ideação do Projeto</div>
-                                            <div className="tempo-aula">12:17</div>
+                                            <div className="titulo-aula">Como iniciar o desenvolvimento</div>
+                                            <div className="tempo-aula">18:57</div>
                                         </div>
                                     </div>
 
                                     <div className="item-aula">
                                         <AiFillPlayCircle color="#28AFCD" size="20"></AiFillPlayCircle>
                                         <div className="detalhes-aula">
-                                            <div className="titulo-aula">Ideação do Projeto</div>
-                                            <div className="tempo-aula">12:17</div>
+                                            <div className="titulo-aula">Desenvolvendo a sua ideia</div>
+                                            <div className="tempo-aula">17:10</div>
                                         </div>
                                     </div>
                                     
                                 </div>
-
+                            </div>
                             </div>
                         </div>
                         </div>
-                </div> 
+                
                 </main>
             </body>
         </Container>

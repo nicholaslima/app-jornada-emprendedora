@@ -6,7 +6,7 @@ import { FiSearch } from 'react-icons/fi';
 
 import Diamante from '../../assets/diamante.png';
 import Logo from '../../assets/logo-default.png';
-
+import User from '../../assets/user.png'
 const Header:React.FC = () => {
     return(
         <Container>
@@ -27,9 +27,7 @@ const Header:React.FC = () => {
                     <p className="ranking"> 11°</p>
                 </div>
 
-                <div className="foto">
-
-                </div>
+                <img src={ User } alt="" className="foto"/>
             </header>
         </Container>
     )

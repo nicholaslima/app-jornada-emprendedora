@@ -15,9 +15,8 @@ const Video:React.FC = () => {
                 <Aside></Aside>
                 <main>
                     <p className="titulo-page">Video</p>
-                    <p className="descricao">Titulo do video</p>
 
-                    <iframe title="video" src="https://www.youtube.com/embed/XGSy3_Czz8k?playlist=XGSy3_Czz8k&loop=1"></iframe>
+                    <iframe title="video" src=""></iframe>
                       
                 </main>
             </body>

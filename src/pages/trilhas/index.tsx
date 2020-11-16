@@ -34,7 +34,7 @@ const Dashboard:React.FC = () => {
                                     Empreendendo de A à Z
                                 </Link>
 
-                                <p className="descricao-trilha">Mussum Ipsum, cacilds vidis litro abertis. A ordem dos tratores não altera o pão duris. Interagi no mé, cursus quis, vehicula ac nisi.on tellus tristique interdum.</p>
+                                <p className="descricao-trilha">Desenvolva conhecimentos sobre inovação, empreendedorismo e como estruturar um plano de negócios.</p>
                             </div>
 
                             <div className="detalhes">
@@ -81,11 +81,11 @@ const Dashboard:React.FC = () => {
                             <div className="foto"></div>
 
                             <div className="descricao">
-                                <p className="titulo-trilha">
-                                    Empreendendo de A à Z
-                                </p>
+                                <Link className="titulo-trilha" to="/trilha">
+                                    Ferramentas e recursos
+                                </Link>
 
-                                <p className="descricao-trilha">Mussum Ipsum, cacilds vidis litro abertis. A ordem dos tratores não altera o pão duris. Interagi no mé, cursus quis, vehicula ac nisi.on tellus tristique interdum.</p>
+                                <p className="descricao-trilha">Aprenda as melhores ferramentas para inovar e empreender. Faça um planejamento para o seu negócio ou projeto usando o Plano de Negócios</p>
                             </div>
 
                             <div className="detalhes">
