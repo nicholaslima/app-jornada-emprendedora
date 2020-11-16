@@ -2,7 +2,7 @@
 
 o startNow é um projeto feito para o evento hackathon megaHack,com o objetivo de introduzir iniciantes na área do emprendedorismo,
 dando a possibilidade tanto de aprendizado quanto de receber monitorias de pessoas mais avançadas, a plataforma é feita de forma gameficada
-, onde os usuarios recebem uma pontuação para cada video assitido e monitoria feita, assim crescendo sua reputação no app
+, onde os usuários recebem uma pontuação para cada video assitido e monitoria feita, assim crescendo sua reputação no app
 
 # Demo
 
