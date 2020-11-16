@@ -12,7 +12,7 @@ voce pode acessar a plataforma aqui: https://startnow.netlify.app
 
 para o rodar o projeto localmente voce precisa:
 ter ecosistema do react: npm,yarn
-no aquivo do projeto e rodar
+,ir no aquivo do projeto e rodar
 ### `yarn`
 ### `yarn start`
 
